@@ -1,0 +1,34 @@
+body {
+    font-family: 'Lora', serif;
+    background-color: #F2D38D;
+    color:#AD8F4C
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    font-size:50pt;
+}
+
+header {
+    text-align:center;
+}
+
+#hero, footer {
+    color:#5E78AD;
+    border: 2px solid #BDD3FF;
+    background-color: #A1BEFA;
+    text-align:center; 
+    padding: 10px;
+}
+
+#hero img {
+    width: 300px;
+}
+
+#bio {
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+    font-size:20pt;
+}
+
+
