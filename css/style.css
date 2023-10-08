@@ -2,19 +2,23 @@ body {
     font-family: 'Lora', serif;
     background-color: #F2D38D;
     color:#AD8F4C
+
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
     text-align: center;
+
 }
 
 h1 {
     font-size:40pt;
+
 }
 
 header {
     text-align:center;
+
 }
 
 #hero, footer {
@@ -23,12 +27,14 @@ header {
     background-color: #A1BEFA;
     text-align:center; 
     padding: 10px;
+
 }
 
 /*Hero Section*/
 
 #hero img {
     width: 300px;
+
 }
 
 /*Bio Section*/
@@ -37,38 +43,81 @@ header {
     text-align:center;
     font-family: 'Roboto', sans-serif;
     font-size:20pt;
+
 }
 
 /*Hobbies */
 
 #hobbies {
     text-align: center;
+
 }
 
 #hobbies ul li:nth-child(even) {
-    color: purple
+    color: brown
+    
 }
 
 #hobbies ul li:nth-child(odd) {
     color: green;
+
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+
   }
 
 /*Gallery*/
 
 #gallery {
     border: 2px solid #BDD3FF;
-    max-width: 100%;
+    margin-bottom: 2rem;
 
 }
 
-#gallery {
+#gallery img {
+    max-width: 100%;
+}
+
+#gallery figure {
     text-align: center;
     font-size: 30px;
     text-shadow: 2px 2px 5px white;
+}
+
+/* Literature */
+
+#lit {
+    border: 2px solid #BDD3FF;
+    margin-bottom: 2rem;
+
+}
+
+#lit div p{
+    
+    padding: 0.5rem 0;
+    margin: 0 auto
+    clear:both;
+
+}
+
+/* Dropcaps */ 
+
+#lit div p:nth-child(2n+1):first-letter {
+    color: brown;
+    background-image: radial-gradient(#583954, #520534);
+    float: left;
+    font-size:1.5em;
+    padding: .4em;
+    margin-right: .25em;
+    line-height: .75;
+    border: 4px solid brown;
+    font-family: "Helvetica";
+    text-shadow: 3px 3px 10px black;
+    box-shadow: 5px 10x 20px black;
+    border-top-left-radius: .4em;
+    border-bottom-right-radius: .2em;
 }
