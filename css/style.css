@@ -6,7 +6,11 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
-    font-size:50pt;
+    text-align: center;
+}
+
+h1 {
+    font-size:40pt;
 }
 
 header {
@@ -31,4 +35,18 @@ header {
     font-size:20pt;
 }
 
+#hobbies {
+    text-align: center;
+}
 
+#hobbies ul li:nth-child(even) {
+    color: purple
+}
+
+#hobbies ul li:nth-child(odd) {
+    color: green;
+}
+
+ul {
+    list-style-type: none;
+  }
