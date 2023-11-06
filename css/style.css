@@ -206,3 +206,17 @@ hr {
     background-color: #000000;
 
 }
+
+body {
+    font-family: 'Lora', serif;
+    background-color: #F2D38D;
+    color:#AD8F4C;
+}
+
+/* Contact Form */
+
+#formElements {
+    display: grid;
+    width: auto;
+    height: auto;
+}
