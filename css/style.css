@@ -219,4 +219,52 @@ body {
     display: grid;
     width: auto;
     height: auto;
+    row-gap: .5em;
+
+}
+
+#contact {
+    padding: 1rem;
+    max-width: 600px;
+    margin: 2rem auto;
+    ;
+
+}
+
+fieldset {
+    border: solid #BDD3FF;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 2rem;
+}
+
+legend {
+    background-color: #BDD3FF;
+    color: white;
+    padding: .5em;
+}
+
+#contact input, #contact textarea, #contact select, #contact button {
+    padding: .5em;
+    font-size: 1rem;
+
+}
+
+#contact ul {
+    list-style:none;
+
+}
+
+#contact li {
+    margin: 1rem;
+
+}
+
+#contact button {
+    background-color: #BDD3FF;
+    color: white;
+    border: 1px solid blue;
+    max-width: 400px;
+    width: 50%;
+    justify-self: center;
 }
