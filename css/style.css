@@ -145,9 +145,9 @@ ul {
     border-bottom-right-radius: .2em;
 }
 
-@media screen and (min-width: 60 em); 
+@media screen and (min-width: 60em); 
 
-    figure {
+figure {
         display:grid;
         grid-template-columns: 2fr 1fr;
 
@@ -179,10 +179,8 @@ figure img{
 /* large screen size */
 
 @media  and (min-width: 100em) {
-
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
 }
 
 hr {
@@ -200,17 +198,17 @@ hr {
     
     text-align: center;
     font-size: 30px;
-    text-shadow: 2px 2px 5px white;
     width: auto;
     height: auto;
     background-color: #000000;
+    padding: 2px;
 
 }
 
 body {
     font-family: 'Lora', serif;
-    background-color: #F2D38D;
-    color:#AD8F4C;
+    background-color: whitesmoke;
+    color: #AD8F4C;
 }
 
 /* Contact Form */
