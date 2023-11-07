@@ -1,114 +1,87 @@
 body {
-
     font-family: 'Lora', serif;
     background-color: #F2D38D;
     color:#AD8F4C;
-
 }
 
 /*CSS Comment Template*/
 
 h1, h2, h3, h4, h5, h6 {
-
     font-family: 'Roboto', sans-serif;
     text-align: center;
-
 }
 
 h1 {
-
     font-size:40pt;
-
 }
 
 h2 {
-
     margin: .1em;
 }
 
 header {
-
     text-align:center;
-
 }
 
 #hero, footer {
-
     color:#5E78AD;
     border: 2px solid #BDD3FF;
     background-color: #A1BEFA;
     text-align:center; 
     padding: 10px;
     display: horizontal; 
-
 }
 
 /*Hero Section*/
 
 #hero img {
-
     width: 300px;
-
 }
 
 /*Bio Section*/
 
 #bio {
-
     text-align:center;
     font-family: 'Roboto', sans-serif;
     font-size:20pt;
-
 }
 
 /*Hobbies */
 
 #hobbies {
-
     text-align: center;
     display: flex; 
     flex-direction: column; 
     align-items: center;
     padding: 5px;
-
 }
 
 #hobbies ul li:nth-child(even) {
-
     color: brown;
-    
 }
 
 #hobbies ul li:nth-child(odd) {
-
     color: green;
-
 }
 
 ul {
-
     list-style-type: none;
     margin: 0;
     padding: 0;
-
-  }
+}
 
 /*Gallery*/
 
 #gallery {
-
     border: 2px solid #BDD3FF;
     margin-bottom: 2rem;
-
 }
 
 #gallery img {
-
     max-width: 100%;
 }
 
 #gallery figure {
-
     text-align: center;
     font-size: 30px;
     text-shadow: 2px 2px 5px white;
@@ -117,14 +90,11 @@ ul {
 /* Literature */
 
 #lit {
-
     border: 2px solid #BDD3FF;
     margin-bottom: 2rem;
-
 }
 
 #lit div p{
-    
     padding: 0.5rem 0;
     margin: 0 auto;
 }
@@ -132,7 +102,6 @@ ul {
 /* Dropcaps */ 
 
 #lit div p:first-child:first-letter {
-
     color: brown;
     background-image: radial-gradient(#583954, #520534);
     float: left;
@@ -153,30 +122,24 @@ ul {
 figure {
         display:grid;
         grid-template-columns: 2fr 1fr;
-
-    }    
+}    
 
 figcaption {
-
     display:flex;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
     margin-left: 1rem;
-
 }
 
 figure img{
-
     width: 100%;
 }
 
 #lit div {
-
     clear:both;
     max-width:100;
     columns: 20rem;
-
 }
 
 /* large screen size */
@@ -188,24 +151,19 @@ figure img{
 
 hr {
     display: none;
-
 }
 
 #gallery h2 {
-
     grid-column: 1/-1;
-
 }
 
 #video {
-    
     text-align: center;
     font-size: 30px;
     width: auto;
     height: auto;
     background-color: #000000;
     padding: 2px;
-
 }
 
 body {
@@ -221,15 +179,12 @@ body {
     width: auto;
     height: auto;
     row-gap: .5em;
-
 }
 
 #contact {
     padding: 1rem;
     max-width: 600px;
     margin: 2rem auto;
-    ;
-
 }
 
 fieldset {
@@ -248,17 +203,14 @@ legend {
 #contact input, #contact textarea, #contact select, #contact button {
     padding: .5em;
     font-size: 1rem;
-
 }
 
 #contact ul {
     list-style:none;
-
 }
 
 #contact li {
     margin: 1rem;
-
 }
 
 #contact button {
