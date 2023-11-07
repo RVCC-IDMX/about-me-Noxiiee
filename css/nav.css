@@ -37,7 +37,22 @@ main {
 
 /* logo */
 
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
 
+.logo img {
+    height: 3vw;
+    width: 3vw;
+    
+}
+
+.logo h1 {
+    font-size: 1.5em;
+    ;
+}
 
 /* navigation list */
 
