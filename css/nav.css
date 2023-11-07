@@ -32,6 +32,7 @@ main {
     font-size: 1.5rem;
     margin-bottom: 1rem;
     padding: 1rem;
+
 }
 
 /* logo */
@@ -42,8 +43,9 @@ main {
 }
 
 .logo img {
-    height: 2vw;
-    width: 2vw;
+    height: 5vw;
+    width: 5vw;
+
 }
 
 .logo h1 {
@@ -68,7 +70,7 @@ main {
 .navbar-links a {
     color: whitesmoke;
     background-color: #333;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 1rem 1.25rem;
     letter-spacing: 2px;
     text-decoration: none;
@@ -82,10 +84,23 @@ main {
     outline: none;
 }
 
-
-
 /* 
 media query for non-mobile nav bar
 min-width set to width of nav elements 
 such that no text wraps 
 */
+
+@media screen and (min-width: 60rem) {
+    .navbar-links {
+        display: flex;
+        justify-content: space-between;
+        }
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .navbar ul {
+        display: flex;
+        justify-content: space-between;
+    }
+}
