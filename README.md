@@ -1,5 +1,7 @@
 # README
 
+PROFESSIONAL DESCRIPTION:
+
 Hey!
 
 My name is Buddy “Jason” Deitz, and I’m an IT and tech student at Raritan Valley Community College.
@@ -11,9 +13,29 @@ In the beginning, there was BOB the origami bird. BOB is no longer with us, but 
 
 All of this wouldn’t possible without our instructions on how to work with and setup programs and websites like Visual Studio Code (with plugins), Github, Netlify, Google Fonts, Adobe Color, Unsplash, the HTML and CSS validators, CodePen, ; the former of where our code gets committed, to, and the latter of where we can see that code getting committed to, coming out as an actual website. As part of our contact us section, we learned how to integrate the back-end of form submission, and how to take that content and put it into an excel document. The inspector tool on Chrome and Firefox allowed us to look at any element, whether it was our website or not, and learn how certain things were done, and how to tweak it. One of the most frustrating but rewarding aspects of learning VS Code was learning to tweak code so that it flowed, as well as the overall design principles, such as file and folder structures, naming, linking, tables, that are expected in a web development context. 
 
-I learned more about design and coding in this class than my entire graphic design associate’s degree, and my ongoing IT tech certificate. I’m in this class thanks to the generous support of the State of NJ on a work-training grant, and I’m truly grateful for the opportunity to take this course. I’m also incredibly thankful for the professors who made this course possible. Thank you so much!
-This website was designed with accessibility and color contrast in mind. To assist with that, I used RGB AND HEX COLORS HERE FOR THIS SECTION AND THIS TEXT COLOR TOO.
+I learned more about design and coding in this class than my entire graphic design associate’s degree, and my ongoing IT tech certificate. This class has also demystified coding and design in a way I never thought possible, and I'm no longer afraid of programming classes. 
 
-Citations:
+Thank you to Penn medicine, for saving my life over 20 years apart with kidney transplants.
 
-Copyright: This website is royalty free, copyright-free and open source under creative commons, and can used by absolutely anyone for any reason.
+I’m in this class thanks to the generous support of the State of NJ on a work-training grant, and I’m truly grateful for the opportunity to take this course. 
+
+I’m also incredibly thankful for the professors who made this course possible. Everything was incredibly well organized. Thank you so much!
+
+COLOR SCHEME:
+
+This website was designed with accessibility and color contrast in mind. 
+
+All colors used for all elements:
+
+Hex: #000000, #ffffff, #add8e6, #0000ff, #AD8F4C, #BDD3FF, #333333
+
+RGB: 0, 0, 0, | 255, 255, 255 | 0, 0, 255 | 166, 43, 43 | 173, 216, 230 | 189, 211, 255 | 51, 51, 51
+
+The theme for my website is beach meets utilitarian and accessibility. To do this, I mixed a brighter, sandy color for the overall background and tried to contrast it with larger, darker elements, like text. I think these brighter elements mixed with the sky-like blues well. I tried to keep the contrast at least 4.5-7+ for AA and AAA accessibility standards. I’m actually really happy with how my logo / favicon turned out, as it looks like a person’s face with sunglasses from the side; it really matches that beach vibe I was going for. 
+
+CITATIONS:
+For the picture hover effects:
+https://thebrandsmen.com/css-image-hover-effects/
+
+LICENSING INFO:
+This website is royalty free, copyright-free and open source under creative commons, and can used by absolutely anyone for any reason.
