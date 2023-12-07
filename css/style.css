@@ -1,14 +1,15 @@
 body {
     font-family: 'Lora', serif;
-    background-color: #F2D38D;
-    color:#AD8F4C;
+    background-color: black;
+    color: #000000;
 }
 
 /*CSS Comment Template*/
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
-    text-align: center;
+    text-align: flex;
+    padding: 1rem;
 }
 
 h1 {
@@ -17,6 +18,7 @@ h1 {
 
 h2 {
     margin: .1em;
+    color: black;
 }
 
 header {
@@ -24,13 +26,13 @@ header {
 }
 
 #hero, footer {
-    color:#5E78AD;
-    border: 2px solid #BDD3FF;
-    background-color: #A1BEFA;
+    color:black;
+    border: 2px solid #000000;
+    background-color: white;
     text-align:center; 
     padding: 10px;
     display: horizontal; 
-}
+    }
 
 /*Hero Section*/
 
@@ -41,27 +43,34 @@ header {
 /*Bio Section*/
 
 #bio {
-    text-align:center;
     font-family: 'Roboto', sans-serif;
     font-size:20pt;
-}
-
-/*Hobbies */
-
-#hobbies {
     text-align: center;
     display: flex; 
     flex-direction: column; 
     align-items: center;
     padding: 5px;
+    color: #000000;
+}
+
+/*Hobbies */
+
+#hobbies {
+    font-family: 'Roboto', sans-serif;
+    font-size:20pt;
+    text-align: left;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    padding: 40px;    
 }
 
 #hobbies ul li:nth-child(even) {
-    color: brown;
+    color: #000000;
 }
 
 #hobbies ul li:nth-child(odd) {
-    color: green;
+    color: darkolivegreen;
 }
 
 ul {
@@ -73,7 +82,7 @@ ul {
 /*Gallery*/
 
 #gallery {
-    border: 2px solid #BDD3FF;
+    border: 2px solid #000000;
     margin-bottom: 2rem;
 }
 
@@ -90,14 +99,16 @@ ul {
 /* Literature */
 
 #lit {
-    border: 2px solid #BDD3FF;
+    border: 2px solid #FFFFFF;
     margin-bottom: 2rem;
     padding: 5px;
+    text-align:center; 
 }
 
 #lit div p{
     padding: 0.5rem 0;
     margin: 0 auto;
+    text-align:center; 
 }
 
 /* Dropcaps */ 
@@ -110,7 +121,7 @@ ul {
     padding: .4em;
     margin-right: .25em;
     line-height: .75;
-    border: 4px solid brown;
+    border: 4px solid #FFFFFF;
     font-family: "Helvetica";
     text-shadow: 3px 3px 10px black;
     box-shadow: 5px 10x 20px black;
@@ -131,6 +142,7 @@ figcaption {
     align-items: center;
     font-size: 2rem;
     margin-left: 1rem;
+    color: black;
 }
 
 figure img{
@@ -189,14 +201,16 @@ body {
 }
 
 fieldset {
-    border: solid #BDD3FF;
+    /* border: solid #BDD3FF; */
+    border: solid #000000;
     margin-top: 1em;
     margin-bottom: 1em;
     border-radius: 2rem;
 }
 
 legend {
-    background-color: #BDD3FF;
+    background-color: #BDD3FF; 
+    background-color: #000000; 
     color: white;
     padding: .5em;
 }
