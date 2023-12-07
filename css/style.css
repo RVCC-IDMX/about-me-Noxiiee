@@ -19,6 +19,7 @@ h1 {
 h2 {
     margin: .1em;
     color: black;
+    text-align: center;
 }
 
 header {
@@ -32,12 +33,14 @@ header {
     text-align:center; 
     padding: 10px;
     display: horizontal; 
+    background-color: lightblue;
     }
 
 /*Hero Section*/
 
 #hero img {
     width: 300px;
+
 }
 
 /*Bio Section*/
@@ -51,6 +54,7 @@ header {
     align-items: center;
     padding: 5px;
     color: #000000;
+    text-align: justify;
 }
 
 /*Hobbies */
@@ -82,6 +86,7 @@ ul {
 /*Gallery*/
 
 #gallery {
+    border-radius: 1rem;
     border: 2px solid #000000;
     margin-bottom: 2rem;
 }
@@ -99,16 +104,19 @@ ul {
 /* Literature */
 
 #lit {
-    border: 2px solid #FFFFFF;
+    border: 2px solid #000000;
     margin-bottom: 2rem;
     padding: 5px;
-    text-align:center; 
+    text-align:right; 
+    
 }
 
 #lit div p{
     padding: 0.5rem 0;
     margin: 0 auto;
     text-align:center; 
+    text-align: justify;
+
 }
 
 /* Dropcaps */ 
@@ -143,6 +151,7 @@ figcaption {
     font-size: 2rem;
     margin-left: 1rem;
     color: black;
+    margin-bottom: 1rem;
 }
 
 figure img{
@@ -153,6 +162,7 @@ figure img{
     clear:both;
     max-width:100;
     columns: 20rem;
+    margin: 0.5rem;
 }
 
 /* large screen size */
