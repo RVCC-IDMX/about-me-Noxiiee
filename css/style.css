@@ -89,7 +89,8 @@ ul {
 #gallery {
     border-radius: 1rem;
     border: 2px solid #000000;
-    margin-bottom: 2rem;
+    padding: 1rem;
+    margin-bottom: 3rem;
     font-size: 22pt;
 }
 
@@ -98,7 +99,7 @@ ul {
 }
 
 #gallery figure {
-    text-align: center;
+    text-align: left;
     font-size: 30px;
     text-shadow: 2px 2px 5px #ffffff;
 }
@@ -108,7 +109,7 @@ ul {
 #lit {
     border: 2px solid #000000;
     margin-bottom: 2rem;
-    padding: 5px;
+    padding: 1rem;
     text-align:right; 
     color: #000000;
     font-size: 15pt;
@@ -159,6 +160,17 @@ figure img{
     width: 100%;
 }
 
+/*Picture Hover Efffects*/
+
+.circle img {
+    transition: 1s ease;
+}
+    
+.circle img:hover {
+    border-radius:50%;
+    transition: 1s ease;
+}
+
 #lit div {
     clear:both;
     max-width:100;
@@ -181,6 +193,8 @@ hr {
     grid-column: 1/-1;
 }
 
+/*Video Section */
+
 #video {
     text-align: center;
     font-size: 30px;
@@ -188,7 +202,6 @@ hr {
     height: auto;
     background-color: #333;
     padding: 2px;
-    color: #ffffff;    
 }
 
 body {
@@ -254,22 +267,5 @@ legend {
     color: #000000;
 }
 
-.circle img {
-    transition: 1s ease;
-}
-    
-.circle img:hover {
-    border-radius:50%;
-    transition: 1s ease;
-}
-    
-video {
-    height: auto;
-    width: auto;
-}
 
-h2 {
-    margin: .1em;
-    color: #000000;
-    text-align: center;
-}
+   
