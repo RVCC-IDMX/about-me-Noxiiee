@@ -35,13 +35,12 @@ header {
     display: horizontal; 
     background-color: #ADD8E6;
     font-size: 22px;
-    }
+}
 
 /*Hero Section*/
 
 #hero img {
     width: 300px;
-
 }
 
 /*Bio Section*/
@@ -89,9 +88,14 @@ ul {
 #gallery {
     border-radius: 1rem;
     border: 2px solid #000000;
-    padding: 1rem;
-    margin-bottom: 3rem;
+    padding: 2rem;
     font-size: 22pt;
+}
+
+@media screen and (max-width: 500px) {
+    .column {
+    width: 100%;
+    }
 }
 
 #gallery img {
@@ -99,10 +103,10 @@ ul {
 }
 
 #gallery figure {
-    text-align: left;
+    text-align: right;
     font-size: 30px;
-    text-shadow: 2px 2px 5px #ffffff;
 }
+
 
 /* Literature */
 
@@ -143,15 +147,14 @@ ul {
 @media screen and (min-width: 60em); 
 
 figure {
-        display:grid;
-        grid-template-columns: 2fr 1fr;
+    display:grid;
+    grid-template-columns: 2fr 1fr;
 }    
 
 figcaption {
     display:flex;
-
     font-size: 2rem;
-    margin-left: 13rem;
+    text-align: center;
     color: #000000;
     margin-bottom: 1rem;
 }
@@ -241,7 +244,6 @@ legend {
     background-color: #333; 
     color: #ffffff;
     padding: .5em;
-    
 }
 
 #contact input, #contact textarea, #contact select, #contact button {
@@ -267,5 +269,3 @@ legend {
     color: #000000;
 }
 
-
-   
