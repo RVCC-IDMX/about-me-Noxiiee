@@ -21,8 +21,6 @@ I’m in this class thanks to the generous support of the State of NJ on a work-
 
 I’m also incredibly thankful for the professors who made this course possible. Everything was incredibly well organized. Thank you so much!
 
-The only piece of feedback have is that I wish we covered all of the topics, and more, that the suggested blog articles cover for the practical final About Me. Like CSS sprites, stacking with z-index, etc.!
-
 COLOR SCHEME:
 
 This website was designed with accessibility and color contrast in mind. 
@@ -41,6 +39,10 @@ CITATIONS:
 For the picture hover effects:
 “10 Simple DIV Hover Effects | CSS Image Hover Effects” The Brandsmen, 19 Apr. 2017, thebrandsmen.com/css-image-hover-effects/. Accessed 7 Dec. 2023.
 The pictures were all photographs I took.
+This is where I got the original code for the hamburger menu, which I then edited / tinkered with.
+https://codepen.io/RawAtCodeYT/pen/rNJrrPa
+https://www.youtube.com/shorts/NzLIyyrREKs
+
 
 LICENSING INFO:
-This website is royalty free, copyright-free and open source under creative commons, and can used by absolutely anyone for any reason.
+This website is royalty free, copyright-free and open source under creative commons, and can used by absolutely anyone for any reason. Please credit me, though!

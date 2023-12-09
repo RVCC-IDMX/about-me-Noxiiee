@@ -116,7 +116,7 @@ ul {
     padding: 1rem;
     text-align:right; 
     color: #000000;
-    font-size: 15pt;
+    font-size: 18pt;
 }
 
 #lit div p{
@@ -203,14 +203,14 @@ hr {
     font-size: 30px;
     width: auto;
     height: auto;
-    background-color: #333;
+    background-color: #ADD8E6;
     padding: 2px;
 }
 
 body {
     font-family: 'Lora', serif;
     background-color: #ffffff;
-    color: #AD8F4C;
+    color: #000000;
 }
 
 /* Contact Form */
@@ -241,8 +241,8 @@ fieldset {
 
 legend {
     background-color: #BDD3FF; 
-    background-color: #333; 
-    color: #ffffff;
+    background-color: #ADD8E6; 
+    color: #000000;
     padding: .5em;
 }
 
@@ -267,5 +267,147 @@ legend {
     width: 50%;
     justify-self: center;
     color: #000000;
+}
+
+/* hamburger */
+
+/* This navbar is a compromise. It turned out almost completely how I wanted it, but couldn't figure out how to have a black background, only faded transparent one. If I could have figured that out, I would have made the text white instead of black for the hamburger. Additionally, I will revisit this project one day to also have the navbar follow the user as they scroll up and down, though I'm not sure if that breaks any rules of design or not.*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.navbar{
+    width: 100%;
+    box-shadow: 0 1px 4px rgb(146, 161, 176 / 15%);
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+.navbar .menu-items{
+    display: flex;
+}
+
+.navbar .nav-container li{
+    list-style: none;
+}
+
+.navbar .nav-container a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 0.7rem;
+}
+
+.navbar .nav-container a:hover{
+    font-weight: bolder;
+}
+
+.nav-container{
+    display: block;
+    position: relative;
+    height: 60px;
+}
+
+.nav-container .checkbox{
+    position: absolute;
+    display: block;
+    height: 32px;
+    width: 32px;
+    top: 20px;
+    left: 20px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.nav-container .hamburger-lines{
+    display: block;
+    height: 26px;
+    width: 32px;
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-container .hamburger-lines .line{
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: #000000;
+}
+
+.nav-container .hamburger-lines .line1{
+    transform-origin: 0% 0%;
+    transition: transform 0.4s ease-in-out;
+}
+
+.nav-container .hamburger-lines .line2{
+    transition: transform 0.2s ease-in-out;
+}
+
+.nav-container .hamburger-lines .line3{
+    transform-origin: 0% 100%;
+    transition: transform 0.4s ease-in-out;
+}
+
+.navbar .menu-items{
+    padding-top: 120px;
+    box-shadow: inset 0 0 2000px #000000;
+    transform: translate(-150%);
+    display: flex;
+    flex-direction: column;
+    margin-left: -40px;
+    padding-left: 50px;
+    transition: transform 0.5s ease-in-out;
+    text-align: center;
+}
+
+.navbar .menu-items li{
+    margin-bottom: 1.5rem;
+    font-size: 5rem;
+    font-weight: 1000;
+}
+
+.logo{
+    position:absolute;
+}
+
+.nav-container input[type="checkbox"]:checked ~ .menu-items{
+    transform: translateX(0);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1{
+    transform: rotate(45deg);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2{
+    transform: scaleY(0);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3{
+    transform: rotate(-45deg);
 }
 
