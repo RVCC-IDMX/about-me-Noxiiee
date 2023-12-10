@@ -49,9 +49,10 @@ https://kenney.nl/assets/rune-pack
 https://www.w3schools.com/css/css_image_sprites.asp
 www.toptal.com/developers/css/sprite-generator
 Resources for Embedded Static GoogleMaps using Iframes Blog:
-#
-#
-#
+https://www.google.com/maps/place/New+York+Renaissance+Faire/@41.2491683,-74.2308155,17.25z/data=!4m6!3m5!1s0x89c327c433b4c43f:0x23ea98c6b8f7917!8m2!3d41.2495056!4d-74.2267071!16zL20vMGRuNWYy?entry=ttu
+
+https://developers.google.com/maps/documentation/embed/embedding-map
+https://blog.hubspot.com/website/how-to-embed-google-map-in-html
 All branding resources for logo links are used from their respective branding pages.
 Here's where I learned to turn pictures into clickable links; 3rd example:
 https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML
