@@ -467,3 +467,11 @@ body{
     text-align: justify;
     
 }
+
+#articles iframe {
+    max-width: 400px;
+}
+
+#video iframe {
+    max-width: 400px;
+}
