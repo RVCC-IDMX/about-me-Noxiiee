@@ -1,6 +1,6 @@
 body {
     font-family: 'Lora', serif;
-    background-color: #000000;
+    background-color: #8d85ff;
     color: #000000;
 }
 
@@ -25,7 +25,7 @@ header {
     text-align:center; 
     padding: 10px;
     display: horizontal; 
-    background-color: #ADD8E6;
+    background-color: #8d85ff;
     font-size: 22px;
 }
 
@@ -195,7 +195,7 @@ hr {
     font-size: 30px;
     width: auto;
     height: auto;
-    background-color: #ADD8E6;
+    background-color: #8d85ff;
     padding: 2px;
 }
 
@@ -431,5 +431,39 @@ body{
     text-align: justify;
 }
 
+.article img {
+    transition: 1s ease;
+}
+    
+.article:hover {
+    border-radius:50%;
+    transition: 1s ease;
+}
 
+#article {
+    clear:both;
+    max-width:100;
+    columns: 20rem;
+    margin: 0.5rem;
+}
 
+#articles {
+    border: 2px solid #000000;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    text-align:left; 
+    color: #000000;
+    font-size: 18pt
+    text-align: justify;
+}
+
+#video max-width: 300px{
+    border: 2px solid #000000;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    text-align:left; 
+    color: #000000;
+    font-size: 18pt
+    text-align: justify;
+    
+}

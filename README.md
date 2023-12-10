@@ -31,7 +31,7 @@ Hex: #000000, #ffffff, #add8e6, #0000ff, #AD8F4C, #BDD3FF, #333333
 
 RGB: 0, 0, 0, | 255, 255, 255 | 0, 0, 255 | 166, 43, 43 | 173, 216, 230 | 189, 211, 255 | 51, 51, 51
 
-The theme for my website is beach meets utilitarian and accessibility. To do this, I mixed a brighter, sandy color for the overall background and tried to contrast it with larger, darker elements, like text. I think these brighter elements mixed with the sky-like blues well. I tried to keep the contrast at least 4.5-7+ for AA and AAA accessibility standards. I’m actually really happy with how my logo / favicon turned out, as it looks like a person’s face with sunglasses from the side; it really matches that beach vibe I was going for. Finally, while I would have preferred to create something more colorful than black and light, especially for text, the accessibility challenges we learned about and discussed made me err toward starker colors and contrast. Pre-final project, there were a lot of sections that didn't even meet the A disability contrast standard, so I had to overhaul a lot to correct that.
+The color scheme for my website a beach meets utilitarian. To do this, I mixed a brighter, sandy color for the overall background and tried to contrast it with larger, darker elements, like text. I think these brighter elements mixed with the sky-like blues well. I tried to keep the contrast at least 4.5-7+ for AA and AAA accessibility standards. I’m actually really happy with how my logo / favicon turned out, as it looks like a person’s face with sunglasses from the side. Finally, while I would have preferred to create something more colorful than black and light, especially for text, the accessibility challenges we learned about and discussed made me err toward starker colors and contrast. Pre-final project, there were a lot of sections that didn't even meet the A disability contrast standard, so I had to overhaul a lot to correct that.
 
 I would have loved a section in the course discussing how to talk about design elements in our readme, and linking pictures / examples to it. I'm genuinely not sure what to say besides the above, where I talk about theme.
 
@@ -55,6 +55,9 @@ Resources for Embedded Static GoogleMaps using Iframes Blog:
 All branding resources for logo links are used from their respective branding pages.
 Here's where I learned to turn pictures into clickable links; 3rd example:
 https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML
+This is where I got the start for my color scheme inspiration.
+https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2022/09/website-color-schemes.webp
+
 
 LICENSING INFO:
 This website is royalty free, copyright-free and open source under creative commons, and can used by absolutely anyone for any reason. Please credit me, though!
