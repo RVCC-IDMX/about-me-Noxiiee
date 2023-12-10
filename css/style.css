@@ -8,18 +8,10 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
-    text-align: flex;
-    padding: 1rem;
-}
-
-h1 {
-    font-size:40pt;
-}
-
-h2 {
-    margin: .1em;
-    color: #000000;
     text-align: center;
+    padding: 1rem;
+    color: #000000;
+    font-size:40pt;
 }
 
 header {
@@ -227,7 +219,6 @@ body {
     padding: 1rem;
     max-width: 600px;
     margin: 2rem auto;
-
 }
 
 fieldset {
@@ -235,8 +226,7 @@ fieldset {
     border: solid #000000;
     margin-top: 1em;
     margin-bottom: 1em;
-    border-radius: 2rem;
-    
+    border-radius: 2rem;  
 }
 
 legend {
@@ -271,7 +261,7 @@ legend {
 
 /* hamburger */
 
-/* This navbar is a compromise. It turned out almost completely how I wanted it, but couldn't figure out how to have a black background, only faded transparent one. If I could have figured that out, I would have made the text white instead of black for the hamburger. Additionally, I will revisit this project one day to also have the navbar follow the user as they scroll up and down, though I'm not sure if that breaks any rules of design or not.*/
+/* This navbar is a compromise. It turned out almost completely how I wanted it, but couldn't figure out how to have a black background, only faded transparent one. If I could have figured that out, I would have made the text white instead of black for the hamburger. Additionally, I will revisit this project one day to also have the navbar follow the user as they scroll up and down for easier navigation, though I'm not sure if that breaks any rules of design or not.*/
 
 *{
     margin: 0;
@@ -410,4 +400,35 @@ body{
 .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3{
     transform: rotate(-45deg);
 }
+
+#logo-img {
+    width: 96px;
+    height: 96px;
+}
+
+/*
+#icon img { 
+    border: #000000 .1px solid;
+}
+*/
+
+#blog1pic img {
+    max-width: 150px;
+}
+
+#article img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#article {
+    border: 2px solid #000000;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    text-align:center; 
+    color: #000000;
+    font-size: 18pt
+}
+
+
 

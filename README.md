@@ -37,12 +37,24 @@ I would have loved a section in the course discussing how to talk about design e
 
 CITATIONS:
 For the picture hover effects:
-“10 Simple DIV Hover Effects | CSS Image Hover Effects” The Brandsmen, 19 Apr. 2017, thebrandsmen.com/css-image-hover-effects/. Accessed 7 Dec. 2023.
-The pictures were all photographs I took.
+thebrandsmen.com/css-image-hover-effects/
+The Gallery pictures were all photographs I took.
+The video is something I created.
+The game in the video, World of Warcraft, is owned by Microsoft.
 This is where I got the original code for the hamburger menu, which I then edited / tinkered with.
 https://codepen.io/RawAtCodeYT/pen/rNJrrPa
 https://www.youtube.com/shorts/NzLIyyrREKs
-
+Resources for CSS Sprites Blog:
+https://kenney.nl/assets/rune-pack
+https://www.w3schools.com/css/css_image_sprites.asp
+www.toptal.com/developers/css/sprite-generator
+Resources for Embedded Static GoogleMaps using Iframes Blog:
+#
+#
+#
+All branding resources for logo links are used from their respective branding pages.
+Here's where I learned to turn pictures into clickable links; 3rd example:
+https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML
 
 LICENSING INFO:
 This website is royalty free, copyright-free and open source under creative commons, and can used by absolutely anyone for any reason. Please credit me, though!
